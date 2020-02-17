@@ -1,0 +1,17 @@
+C:\Users\ssolari\Desktop\Proyecto_Final\Entidades_Compartidas\bin\Debug\Entidades_Compartidas.dll
+C:\Users\ssolari\Desktop\Proyecto_Final\Entidades_Compartidas\bin\Debug\Entidades_Compartidas.pdb
+C:\Users\ssolari\Desktop\Proyecto_Final\Entidades_Compartidas\obj\Debug\Entidades_Compartidas.dll
+C:\Users\ssolari\Desktop\Proyecto_Final\Entidades_Compartidas\obj\Debug\Entidades_Compartidas.pdb
+C:\Users\Santiago\Desktop\Proyecto_Final\Entidades_Compartidas\bin\Debug\Entidades_Compartidas.dll
+C:\Users\Santiago\Desktop\Proyecto_Final\Entidades_Compartidas\bin\Debug\Entidades_Compartidas.pdb
+C:\Users\Santiago\Desktop\Proyecto_Final\Entidades_Compartidas\obj\Debug\Entidades_Compartidas.dll
+C:\Users\Santiago\Desktop\Proyecto_Final\Entidades_Compartidas\obj\Debug\Entidades_Compartidas.pdb
+C:\Users\ssolari\Desktop\Proyecto_Final1\Entidades_Compartidas\bin\Debug\Entidades_Compartidas.dll
+C:\Users\ssolari\Desktop\Proyecto_Final1\Entidades_Compartidas\bin\Debug\Entidades_Compartidas.pdb
+C:\Users\ssolari\Desktop\Proyecto_Final1\Entidades_Compartidas\obj\Debug\Entidades_Compartidas.dll
+C:\Users\ssolari\Desktop\Proyecto_Final1\Entidades_Compartidas\obj\Debug\Entidades_Compartidas.pdb
+C:\Users\Santiago\Desktop\Proyecto_Final1\Entidades_Compartidas\bin\Debug\Entidades_Compartidas.dll
+C:\Users\Santiago\Desktop\Proyecto_Final1\Entidades_Compartidas\bin\Debug\Entidades_Compartidas.pdb
+C:\Users\Santiago\Desktop\Proyecto_Final1\Entidades_Compartidas\obj\Debug\Entidades_Compartidas.dll
+C:\Users\Santiago\Desktop\Proyecto_Final1\Entidades_Compartidas\obj\Debug\Entidades_Compartidas.pdb
+C:\Users\ssolari\Desktop\Proyecto_Final1\Entidades_Compartidas\obj\Debug\Entidades_Compartidas.csprojResolveAssemblyReference.cache

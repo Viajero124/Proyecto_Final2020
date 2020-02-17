@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Menu_Principal.master.cs" Inherits="Menu_Principal" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 537px;
+        }
+        .style2
+        {
+            width: 832px;
+        }
+    </style>
+</head>
+<body bgcolor="#00cc00">
+    <form id="form1" runat="server">
+    <div>
+        <table style="width: 100%;">
+            <tr>
+                <td class="style2">
+                    <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" 
+                        StaticSubMenuIndent="16px" style="color: #800000">
+                        <Items>
+                            <asp:MenuItem Text="Acciones" Value="Acciones">
+                                <asp:MenuItem NavigateUrl="~/Entidades.aspx" Text="Entidades" Value="Entidades">
+                                </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/Cambio_Estado_solicitud.aspx" 
+                                Text="Cambio de estado" Value="Cambio de estado"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/Registro_de_Solicitud.aspx" 
+                                Text="Registro de Solicitud" Value="Registro de Solicitud"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/Tipos_de_Tramites.aspx" Text="Tipo de Tramite" 
+                                Value="Tipo de Tramite"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/Empleados.aspx" Text="Empleados" Value="Empleados">
+                                </asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Listados" Value="Listados">
+                                <asp:MenuItem NavigateUrl="~/Listado_Solicitudes_por_fechas.aspx" 
+                                Text="Solicitudes" Value="Solicitudes"></asp:MenuItem>
+                            </asp:MenuItem>
+                        </Items>
+                    </asp:Menu>
+                </td>
+                <td class="style1">
+                    <asp:Label ID="lblUsuario" runat="server" Text="Usuario Activo :"></asp:Label>
+                    <asp:Label ID="txtUsuarioActivo" runat="server"></asp:Label>
+                </td>
+                <td>
+                    <asp:Button ID="btnCerrarSesion" runat="server" BackColor="White" 
+                        BorderColor="Blue" BorderStyle="Double" Height="25px" 
+                        onclick="btnCerrarSesion_Click" Text="Cerrar Sesion" />
+                </td>
+            </tr>
+            <tr>
+                <td class="style2">
+                    &nbsp;</td>
+                <td class="style1">
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td class="style2">
+                    &nbsp;</td>
+                <td class="style1">
+                    &nbsp;</td>
+                <td>
+                    &nbsp;</td>
+            </tr>
+        </table>
+&nbsp;</div>
+    <p>
+        
+            &nbsp;</p>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    <asp:Image ID="Image1" runat="server" Height="96px" 
+        ImageUrl="~/Imagenes/Imagen1.jpg" Width="144px" />
+    </form>
+</body>
+</html>
