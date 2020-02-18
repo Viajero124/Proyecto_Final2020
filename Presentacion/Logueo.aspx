@@ -12,12 +12,36 @@
         }
     </style>
 </head>
-<body bgcolor="#61679e">
+<body bgcolor="Silver">
     <form id="form1" runat="server">
     <div>
     
     </div>
     <table style="width:100%;">
+        <tr>
+            <td>
+                &nbsp;</td>
+            <td class="style1">
+                &nbsp;</td>
+            <td>
+                &nbsp;</td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;</td>
+            <td class="style1">
+                &nbsp;</td>
+            <td>
+                &nbsp;</td>
+        </tr>
+        <tr>
+            <td>
+                &nbsp;</td>
+            <td class="style1">
+                &nbsp;</td>
+            <td>
+                &nbsp;</td>
+        </tr>
         <tr>
             <td>
                 <asp:Label ID="lblUsuario" runat="server" Text="Usuario :"></asp:Label>
@@ -32,7 +56,7 @@
         <tr>
             <td>
                 &nbsp;</td>
-            <td class="style1">
+            <td class="style1" style="margin-left: 80px">
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" 
                     ControlToValidate="txtUsuario" ErrorMessage="Debe Ingresar Usuario"></asp:RequiredFieldValidator>
             </td>
@@ -63,7 +87,7 @@
         <tr>
             <td>
                 &nbsp;</td>
-            <td class="style1" style="margin-left: 80px">
+            <td class="style1">
                 <asp:Button ID="BtnLogueo" runat="server" onclick="BtnLogueo_Click" 
                     Text="Login" />
             </td>
@@ -76,30 +100,6 @@
             <td class="style1">
                 <asp:Label ID="lblError" runat="server"></asp:Label>
             </td>
-            <td>
-                &nbsp;</td>
-        </tr>
-        <tr>
-            <td>
-                &nbsp;</td>
-            <td class="style1">
-                &nbsp;</td>
-            <td>
-                &nbsp;</td>
-        </tr>
-        <tr>
-            <td>
-                &nbsp;</td>
-            <td class="style1">
-                &nbsp;</td>
-            <td>
-                &nbsp;</td>
-        </tr>
-        <tr>
-            <td>
-                &nbsp;</td>
-            <td class="style1">
-                &nbsp;</td>
             <td>
                 &nbsp;</td>
         </tr>
